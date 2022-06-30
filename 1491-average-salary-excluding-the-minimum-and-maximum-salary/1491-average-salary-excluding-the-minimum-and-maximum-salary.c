@@ -12,7 +12,6 @@ int min,max;
         if(salary[i]<min){
             min = salary[i];
         }
-
         sum+=salary[i];
     }
     sum = sum - (min+max);
