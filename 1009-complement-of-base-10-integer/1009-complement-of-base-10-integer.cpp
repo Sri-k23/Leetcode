@@ -7,9 +7,9 @@ public:
            mask = (mask<<1)|1;
            m = m >> 1; 
         }
-        if(n==0){
+        if(n==0)
             return 1;
-        }
+        
         int bit = (~n)&mask;
         return bit;
      }
