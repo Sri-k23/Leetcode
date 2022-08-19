@@ -10,9 +10,6 @@ public:
                     if(nums[j] < nums[i]){
                         count++;
                     }
-                    else{
-                        count = count;
-                    }
                 }
                 arr[i] = count;
             }
